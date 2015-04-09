@@ -17,17 +17,17 @@
 * Overcoming Windows 8.1's deprecation of GetVersionEx and GetVersion APIs, Use VerifyVersionIfo APIs
 * But, It cannot overcome Windows 10's deprecation of VerifyVersionInfo.
 * If you want to get correct OS version infomation, Use manifest files. 
-* <!-- Windows 10 -->
-  <supportedOS Id="{8e0f7a12-bfb3-4fe8-b9a5-48fd50a15a9a}"/>
+* "<!-- Windows 10 -->"
+  "<supportedOS Id="{8e0f7a12-bfb3-4fe8-b9a5-48fd50a15a9a}"/>"
 
 * What is the OS Version?
-# Windows Version 	- Major - Minor
-# Windows xp 		- 5 	- 3
-# Windows Vista 	- 6 	- 0
-# Windows 7 		- 6 	- 1
-# Windows 8 		- 6 	- 2
-# Windows 8.1 		- 6 	- 3
-# Windows 10 		- 6 	- 4 	or 10 	- 0
+* Windows Version 	- Major - Minor
+* Windows xp 		- 5 	- 3
+* Windows Vista 	- 6 	- 0
+* Windows 7 		- 6 	- 1
+* Windows 8 		- 6 	- 2
+* Windows 8.1 		- 6 	- 3
+* Windows 10 		- 6 	- 4 	or 10 	- 0
 
 ## Developing
 * C++
